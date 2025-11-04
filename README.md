@@ -13,15 +13,14 @@ A Python-based LSTM model trained on the Alice in Wonderland text to generate ne
 - LSTM-based language modeling
 - Randomized text generation from seed phrases
 
+## Dataset
+Alice in Wonderland text from GitHub: https://gist.github.com/phillipj/4944029
+
 ## How to Run
 1. Clone this repository.
 2. Install dependencies: `pip install tensorflow numpy`
 3. Place `alice_in_wonderland.txt` in the project directory.
 4. Run: `python Alice.py`
-
-## Notes
-- Model trained for 5 epochs due to hardware limitations.
-- Future improvements: more epochs, temperature sampling, cloud deployment.
 
 ## License
 MIT License
